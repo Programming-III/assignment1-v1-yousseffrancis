@@ -1,15 +1,20 @@
-#ifndef VISITOR_H
-#define VISITOR_H
-
-#include <string>
+#ifndef VISITOR_H_INCLUDED
+#define VISITOR_H_INCLUDED
+#include<iostream>
+#include"Animal.h"
+#include"Enclosure.h"
+#include<string>
 using namespace std;
+class Vistor{
+private:
+    string visitorName;
+    int ticketsBought;
 
-//define visitor class here
+public:
+    Vistor();
+    Visitor(string visitorName , int ticketsBought);
+    void displayInfo();
+    ~Vistor();
+};
 
-
-
-
-
-
-
-#endif
+#endif // VISITOR_H_INCLUDED
