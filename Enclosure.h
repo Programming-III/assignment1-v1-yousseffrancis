@@ -1,7 +1,7 @@
 #ifndef ENCLOSURE_H_INCLUDED
 #define ENCLOSURE_H_INCLUDED
 #include<iostream>
-#include
+#include"Animal.h"
 #include<string>
 using namespace std;
 class Enclosure : public Animal{
